@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Assignment 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fdf6ec;
+            color: #3b2f2f;
+        }
+
+        .header {
+            background-image: url('images/8661e91e8331259c612afa827ba0f7af-Picsart-AiImageEnhancer-Picsart-AiImageEnhancer.png');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 80px 20px;
+            color: #fff;
+            position: relative;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.25);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .page-title {
+            font-size: 3em;
+            font-weight: bold;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+
+        .assignment-section {
+            padding: 50px 20px;
+            background-color: #f4ebdd;
+            text-align: center;
+        }
+
+        .assignment-section h2 {
+            color: #5c4a3d;
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+
+        .video-container {
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fffaf2;
+            border-radius: 12px;
+            max-width: 700px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+        }
+
+        iframe {
+            width: 100%;
+            height: 380px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .video-title {
+            margin-top: 15px;
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #3d2f2f;
+        }
+
+        .footer {
+            background-color: #f1e5d3;
+            padding: 15px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #5a4b42;
+        }
+
+        @media (max-width: 768px) {
+            iframe {
+                height: 220px;
+            }
+
+            .video-title {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <div class="page-title">Lab Assignment 2</div>
+        </div>
+    </div>
+
+    <div class="assignment-section">
+    
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/p0WvWkDTt4U?si=tk_H3_c1DvPS_gCC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3 class="video-title">#1: Question 1</h3>
+        </div>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_7L9Dg6yUBc?si=vpZlUXrfaa1iIxAD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3 class="video-title">#2: Question 2</h3>
+        </div>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AWm0OiY3KHo?si=YhKmIbKYKXk-zo8Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3 class="video-title">#4: Question 4</h3>
+        </div>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zuBncdNhbR0?si=3ZdSAYooUQEAil4C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3 class="video-title">#5: Question 5</h3>
+        </div>
+
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wKLz0RfYG0A?si=iGdp7tTrujyswT4y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3 class="video-title">#6: Question 6</h3>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        &copy; 2025 Aastha Lutare. All rights reserved.
+    </div>
+
+</body>
+</html>

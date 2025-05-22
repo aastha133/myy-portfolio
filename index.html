@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #f9f4ef;
+      color: #3b2f2f;
+    }
+
+    .header {
+      background-image: url('images/8661e91e8331259c612afa827ba0f7af-Picsart-AiImageEnhancer-Picsart-AiImageEnhancer.png');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 80px 20px;
+      color: #fff;
+      position: relative;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.3);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 1;
+    }
+
+    .header-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto;
+      border: 4px solid #a68a64;
+    }
+
+    .profile-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .name {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .roll-no {
+      font-size: 1.5em;
+      color: #fdf6ee;
+      margin-bottom: 20px;
+    }
+
+    .about {
+      padding: 40px 20px;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .about h2 {
+      color: #3b2f2f;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      color: #5e4b3c;
+      font-size: 1em;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .assignment {
+      padding: 40px 20px;
+      background-color: #f1e0c5;
+      text-align: center;
+    }
+
+    .assignment h2 {
+      color: #3b2f2f;
+      font-size: 1.8em;
+      margin-bottom: 30px;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .nav-links a {
+      background-color: #d9c4a8;
+      color: #3b2f2f;
+      padding: 14px 30px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+      width: 80%;
+      max-width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: background-color 0.3s, color 0.3s, transform 0.2s;
+    }
+
+    .nav-links a:hover {
+      background-color: #5a4634;
+      color: #fff;
+      transform: scale(1.03);
+    }
+
+    .contact {
+      padding: 40px 20px;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .contact h2 {
+      color: #3b2f2f;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      font-size: 2em;
+      color: #3b2f2f;
+      transition: color 0.3s;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      color: #a68a64;
+    }
+
+    .footer {
+      background-color: #e7d3b4;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.8em;
+      color: #5e4b3c;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links a {
+        width: 90%;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="overlay"></div>
+    <div class="header-content">
+      <div class="profile-photo">
+        <img src="images/WhatsApp Image 2025-05-20 at 23.42.32.jpeg" alt="Profile Photo">
+      </div>
+      <div class="name">Aastha Lutare</div>
+      <div class="roll-no">Roll No: IT-2K23-02</div>
+    </div>
+  </div>
+
+  <div class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a 3rd year student, currently pursuing an Integrated MTech IT degree from IIPS (DAVV), INDORE.
+    </p>
+  </div>
+
+  <div class="assignment">
+    <h2>Assignments</h2>
+    <nav class="nav-links">
+      <a href="internal1.html" target="_blank">Internal 1</a>
+      <a href="internal2.html" target="_blank">Internal 2</a>
+      <a href="internal3.html" target="_blank">Internal 3</a>
+      <a href="LabAssignment1.html" target="_blank">Lab Assignment 1</a>
+      <a href="LabAssignment2.html" target="_blank">Lab Assignment 2</a>
+      <a href="LabAssignment3.html" target="_blank">Lab Assignment 3</a>
+      <a href="EndSemester.html" target="_blank">End Semester</a>
+
+    </nav>
+  </div>
+
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/aasthalutare13?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/aastha133" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 Aastha Lutare. All rights reserved.
+  </div>
+
+</body>
+</html>
